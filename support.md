@@ -15,4 +15,4 @@ Subscriptions are managed by Apple. Go to iPhone Settings -> Apple ID -> Subscri
 
 ### Contact Us
 For bug reports or feature requests, please email:
-[PUT_YOUR_EMAIL_HERE]
+[garrettmichael07@icloud.com]
