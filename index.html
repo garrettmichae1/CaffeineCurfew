@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine Curfew | Support & Privacy</title>
+    <style>
+        :root {
+            --bg-color: #0f0f10; /* Deep Dark Background */
+            --card-bg: #1c1c1e;   /* iOS Dark Mode Card */
+            --text-main: #ffffff;
+            --text-sec: #a1a1a6;
+            --accent: #FF9500;    /* App Orange */
+            --divider: #38383a;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        /* HEADER */
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .app-icon {
+            width: 100px;
+            height: 100px;
+            background: linear-gradient(135deg, #FFD60A, #FF9F0A);
+            border-radius: 22px;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(255, 159, 10, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 { font-size: 32px; margin-bottom: 10px; }
+        p.subtitle { color: var(--text-sec); font-size: 18px; }
+
+        /* NAV PILLS */
+        .nav-pills {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 50px;
+        }
+
+        .nav-pills a {
+            text-decoration: none;
+            color: var(--text-main);
+            background: var(--card-bg);
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .nav-pills a:hover { background: var(--accent); color: #000; }
+
+        /* SECTIONS */
+        section {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 40px;
+            border: 1px solid var(--divider);
+        }
+
+        h2 { border-bottom: 1px solid var(--divider); padding-bottom: 15px; margin-top: 0; }
+        h3 { margin-top: 25px; color: var(--accent); font-size: 18px; }
+        ul { padding-left: 20px; color: var(--text-sec); }
+        li { margin-bottom: 10px; }
+        p { color: var(--text-sec); margin-bottom: 15px; }
+
+        .email-box {
+            background: rgba(255, 149, 0, 0.1);
+            border: 1px solid var(--accent);
+            color: var(--accent);
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-sec);
+            font-size: 14px;
+            padding-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <div class="app-icon">☕️</div>
+            <h1>Caffeine Curfew</h1>
+            <p class="subtitle">Master your intake. Protect your sleep.</p>
+        </header>
+
+        <div class="nav-pills">
+            <a href="#support">Support & FAQ</a>
+            <a href="#privacy">Privacy Policy</a>
+        </div>
+
+        <section id="support">
+            <h2>Support & FAQ</h2>
+            
+            <h3>How do I delete a drink?</h3>
+            <p>Go to your dashboard history list. Swipe left on any entry to delete it, or long-press the entry for more options.</p>
+
+            <h3>The Watch app isn't syncing.</h3>
+            <p>Ensure both your iPhone and Apple Watch have Bluetooth enabled. Open the app on both devices simultaneously to force an immediate sync. If problems persist, restart both devices.</p>
+
+            <h3>How do I manage my subscription?</h3>
+            <p>Subscriptions are handled securely by Apple. Go to your <strong>iPhone Settings > Apple ID > Subscriptions</strong> to cancel or change your plan.</p>
+
+            <h3>HealthKit Permissions</h3>
+            <p>If the graph isn't showing data, check your permissions. Go to <strong>iPhone Settings > Health > Data Access > Caffeine Curfew</strong> and ensure all switches are ON.</p>
+
+            <div class="email-box">
+                Need more help? Email us:<br>
+                garrettmichael07@icloud.com </div>
+        </section>
+
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p><strong>Last Updated: December 25, 2025</strong></p>
+            <p>Caffeine Curfew ("the App") respects your privacy. We believe your health data belongs to you, and only you.</p>
+
+            <h3>1. HealthKit Data</h3>
+            <p>The App integrates with Apple's HealthKit to read and write caffeine data.</p>
+            <ul>
+                <li><strong>Read:</strong> We read caffeine history to calculate your current energy levels and sleep curfew.</li>
+                <li><strong>Write:</strong> When you log a drink, we save it to HealthKit so your data is available in Apple Health.</li>
+                <li><strong>No Sale of Data:</strong> We DO NOT sell, rent, or share your HealthKit data with third parties or advertisers.</li>
+            </ul>
+
+            <h3>2. Data Storage</h3>
+            <p>All metabolic calculations happen locally on your device. Your data is stored in:</p>
+            <ul>
+                <li>The local database on your iPhone/Watch.</li>
+                <li>Apple Health (if permissions granted).</li>
+                <li>Your personal iCloud (if you have iCloud Backups enabled).</li>
+            </ul>
+            <p>We do not operate external servers that hold your personal health data.</p>
+
+            <h3>3. Analytics</h3>
+            <p>We do not track your location or personal identity. We may collect anonymous, aggregate usage data (e.g., "Crash rates") provided by Apple to help us improve app stability.</p>
+
+            <h3>4. Contact</h3>
+            <p>For questions regarding privacy, please contact the email listed in the support section above.</p>
+        </section>
+
+        <footer>
+            &copy; 2025 Caffeine Curfew. All rights reserved.
+        </footer>
+    </div>
+
+</body>
+</html>
