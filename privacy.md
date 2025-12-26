@@ -27,4 +27,4 @@ By using the App and enabling HealthKit permissions, you consent to the processi
 
 ## 5. Contact Us
 If you have any questions about this Privacy Policy, please contact us at:
-[PUT_YOUR_EMAIL_HERE]
+[garrettmichael07@icloud.com]
